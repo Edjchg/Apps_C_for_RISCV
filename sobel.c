@@ -215,7 +215,7 @@ int main() {
 
   //int clock_cycles = (int)(end - begin);
   //printf("clock cycles: %d\n",clock_cycles);
-
+  printf("Sobel has been successfully compiled and execute for pulpissimo\n");
   printf("Sobel filtering\n");
 
 	return 0;
