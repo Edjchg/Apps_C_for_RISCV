@@ -191,7 +191,7 @@ int main() {
 
   int RESULT[HEIGHT][WIDTH] = {0};
 
-  clock_t begin = clock();
+  //clock_t begin = clock();
 
   for (i = 1; i < HEIGHT-1; i++) {
     for (j = 1; j < WIDTH-1; j++) {
@@ -207,13 +207,14 @@ int main() {
       sobel(&out, A, B, C, D, F, G, H, I);
 
       RESULT[i][j] = out;
+      printf("New pixel %i \n", out);
     }
   }
 
-  clock_t end = clock();
+  //clock_t end = clock();
 
-  int clock_cycles = (int)(end - begin);
-  printf("clock cycles: %d\n",clock_cycles);
+  //int clock_cycles = (int)(end - begin);
+  //printf("clock cycles: %d\n",clock_cycles);
 
   printf("Sobel filtering\n");
 
