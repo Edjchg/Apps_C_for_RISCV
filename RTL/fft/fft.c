@@ -1,5 +1,5 @@
 #include <cstdio>
-#include <iostream>
+#include <iostream.h>
 #include "fourier.h"
 #include <fstream>
 #include <time.h>
